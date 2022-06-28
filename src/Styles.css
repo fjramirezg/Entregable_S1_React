@@ -11,6 +11,7 @@
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.948);
   border-radius: 8px;
   margin-top: 225px;
+  background-color: white;
 }
 
 .card > h1 {
