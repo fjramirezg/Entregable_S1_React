@@ -35,8 +35,8 @@ function App() {
             {quotes[index].author}
             {`"`}
           </h2>
-          <button onClick={changeUser}>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+          <button onClick={changeUser} style={{background: `${colors[index].hex}` }}>
+             <i className="fa-solid fa-circle-arrow-right"></i> 
           </button>
         </div>
       </div>
