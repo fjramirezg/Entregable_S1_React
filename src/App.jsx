@@ -25,12 +25,12 @@ function App() {
 
   return (
     <div className="container">
-      <div className="card " style={{ color: "black" }}>
-        <h1  style={{ color: colors[index].hex }}>
+      <div className="card ">
+        <h1 style={{ color: colors[index].hex }}>
           <i className="fa-solid fa-quote-left"></i> {quotes[index].quote}
         </h1>
         <div className="footer">
-          <h2  style={{ color: colors[index].hex }}>
+          <h2 style={{ color: colors[index].hex }}>
             {`"`}
             {quotes[index].author}
             {`"`}
@@ -45,3 +45,4 @@ function App() {
 }
 
 export default App;
+
